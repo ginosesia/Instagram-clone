@@ -1,10 +1,9 @@
 import { HeartIcon, ChatIcon, ShareIcon, BookmarkIcon, DotsHorizontalIcon } from '@heroicons/react/outline';
 
-
 function Post() {
     return (
         <div className="flex flex-col">
-            <div className=' bg-white mt-5  border-2'>
+            <div className=' bg-white mt-5  border-2 rounded'>
                 <div className="flex p-2">
                     <div className="flex flex-grow">
                         <img className="h-10 m-0 rounded-full border-pink-700" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/9397/production/_113838773_donkey.jpg" alt="story" />

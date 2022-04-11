@@ -2,7 +2,10 @@ import Post from './Post';
 
 function Posts() {
     return (
-        <div className="h-screen w-2/6 m-auto">
+        <div>
+            <Post />
+            <Post />
+            <Post />
             <Post />
         </div>
     );

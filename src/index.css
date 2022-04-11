@@ -18,4 +18,8 @@
   .post-icon {
     @apply cursor-pointer h-8;
   }
+
+  .form-input {
+    @apply m-2 bg-transparent p-3 rounded;
+  }
 }
